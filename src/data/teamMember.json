@@ -1,0 +1,28 @@
+[
+  {
+    "name": "[Department Head Name]",
+    "department": "Head of Operations",
+    "experience_years": "[Number]",
+    "description": "A seasoned mariner with [Number] years of experience, [he/she] leads our team with a focus on efficiency, safety, and exceeding client expectations."
+  },
+  {
+    "name": "[Department Head Name]",
+    "department": "Head of Ship Chandlery",
+    "description": "With a deep understanding of ship supplies and logistics, [he/she] ensures the timely and reliable delivery of everything you need, when you need it."
+  },
+  {
+    "name": "[Department Head Name]",
+    "department": "Head of Ship Repair",
+    "description": "Our resident expert in mechanical and electrical repairs, [he/she] leads a team of skilled technicians who meticulously maintain your vessel and ensure it meets all safety regulations."
+  },
+  {
+    "name": "[Department Head Name]",
+    "department": "Head of Ship Supply",
+    "description": "This department, led by [him/her], offers a one-stop solution for all your ship supply requirements, including equipment and streamlined logistics services."
+  },
+  {
+    "name": "[Department Head Name]",
+    "department": "Head of Export Services",
+    "description": "Leveraging our global network, [he/she] and his/her team of export specialists help you explore and fulfill your export needs seamlessly."
+  }
+]

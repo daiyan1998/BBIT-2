@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Ship Repair and Maintenance",
+    "description": "Comprehensive repair and maintenance services for all types of vessels to ensure smooth operation and optimal efficiency."
+  },
+  {
+    "name": "Bunker/Lube Oil Supply",
+    "description": "Supply of bunker fuel and lubricating oil to meet the fueling needs of vessels."
+  },
+  {
+    "name": "Spare Parts Supply",
+    "description": "Provision of genuine spare parts and components for various ship systems."
+  },
+  {
+    "name": "Export Services",
+    "description": "Assistance with export procedures and logistics for shipping-related requirements."
+  },
+  {
+    "name": "Provision, Bonded Supply, and Stores Supply",
+    "description": "Supply of provisions, bonded items, and general stores for vessel operations."
+  },
+  {
+    "name": "Deck, Crane, Hydraulic, Electrical, and Engine Repair",
+    "description": "Repair and maintenance services for deck equipment, cranes, hydraulic systems, electrical systems, and engines."
+  },
+  {
+    "name": "Port Agency/Owner Protecting Agency (OPA)",
+    "description": "Agency services for vessel owners including port agency and owner protecting agency."
+  },
+  {
+    "name": "Survey Services",
+    "description": "Comprehensive survey services including damage assessment, cargo survey, joint survey, bunker survey, and draft survey."
+  },
+  {
+    "name": "Cleaning and Security Services",
+    "description": "Cleaning services for vessels and security services to ensure safety onboard."
+  },
+  {
+    "name": "Crew Handling (sign-off/on)",
+    "description": "Handling crew sign-off and sign-on procedures for vessel crew members."
+  },
+  {
+    "name": "Main Engine and Auxiliary Engine Services",
+    "description": "Services related to main engines and auxiliary engines including repair and maintenance."
+  },
+  {
+    "name": "Hydraulic Pump and Scuba/Underwater Services (UWI/UWC)",
+    "description": "Hydraulic pump services and underwater services including underwater inspection (UWI) and underwater welding/cutting (UWC)."
+  },
+  {
+    "name": "Salvage Services (lost anchor/chain recovery)",
+    "description": "Salvage services for recovering lost anchors and chains."
+  },
+  {
+    "name": "Export of Spare Parts (all ship types)",
+    "description": "Export services for spare parts for all types of ships."
+  },
+  {
+    "name": "Chipping and Painting Services",
+    "description": "Chipping and painting services for vessel hulls and structures."
+  },
+  {
+    "name": "Fender Supply",
+    "description": "Supply of fenders for vessels to facilitate safe mooring and docking."
+  }
+]
