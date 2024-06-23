@@ -5,7 +5,7 @@ import { FaSearchLocation } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
 import { IoMdCall } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
-import { FaPaperPlane } from "react-icons/fa6";
+import { FaShip } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 
 import ContactPageBanner from "./ContactPageBanner";
@@ -23,10 +23,85 @@ const ContactPage = () => {
       <div className="part-1-2 my-10 ">
         <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-10">
           {/* part one div form section basically */}
-
-          <div className="  part1    text-2xl basis-2/3  p-8 rounded-xl shadow-md bg-gray-50">
+          <div className="part1 bg-gray-50 basis-1/2 flex flex-col items-center  p-8 rounded-xl shadow-md">
             <h1 className="  lg:text-4xl md:text-3xl text-2xl font-semibold my-10 text-center">
-              Interact With Us
+            Share your thoughts with us
+
+            </h1>
+            <form action="" method="POST" className="w-full max-w-lg ">
+              <div className="flex flex-wrap  -mx-3 mb-6">
+                <div className="w-full md:w-1/2  px-3 mb-6 md:mb-0">
+                  <input
+                    className="appearance-none block w-full text-gray-700 border-b-2 border-primary rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-transparent "
+                    id="grid-first-name"
+                    type="text"
+                    placeholder="Name"
+                    name="name"
+                    required
+                  />
+                </div>
+                <div className="w-full md:w-1/2 px-3">
+                  <input
+                    className="appearance-none block w-full text-gray-700 border-b-2 border-primary rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-transparent "
+                    id="grid-last-name"
+                    type="email"
+                    placeholder="E-Mail"
+                    name="email"
+                    required
+                  />
+                </div>
+              </div>
+              <div className="flex flex-wrap -mx-3 mb-6 md:mb-0">
+                <div className="w-full px-3 md:w-1/2 mb-6 md:mb-0">
+                  <input
+                    className="appearance-none block w-full text-gray-700 border-b-2 border-primary rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-transparent "
+                    id="grid-password"
+                    type="text"
+                    placeholder="Phone"
+                    name="phone"
+                    required
+                  />
+                </div>
+                <div className="w-full px-3 md:w-1/2 mb-6 md:mb-0">
+                  <input
+                    className="appearance-none block w-full text-gray-700 border-b-2 border-primary rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-transparent "
+                    id="grid-password"
+                    type="text"
+                    placeholder="Subject"
+                    name="subject"
+                    required
+                  />
+                </div>
+                <div className="w-full px-3">
+                  <textarea
+                    className="appearance-none block w-full text-gray-700 border-b-2 border-primary rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-transparent "
+                    rows={5}
+                    id="grid-password"
+                    type="text"
+                    placeholder="Message"
+                    name="message"
+                    required
+                  />
+                </div>
+              </div>
+              <button
+                type="submit"
+                className={`w-full mt-3 px-6 md:px-8 lg:px-8 py-2 md:py-3 lg:py-3 bg-slate-100    font-semibold text-primary rounded-2xl shadow-lg hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-0.5 flex items-center justify-center gap-3 text-xl group`}
+              >
+                Ship
+                {" "}
+                <FaShip className="group-hover:skew-x-6 transition-transform ease-linear delay-300" />
+              </button>
+            </form>
+          </div>
+
+
+         
+          {/* form div */}
+          <div className="  part2    text-2xl basis-2/3  p-8 rounded-xl shadow-md bg-gray-50">
+            <h1 className="  lg:text-4xl md:text-3xl text-2xl font-semibold my-10 text-center">
+            Reach out to us
+
             </h1>
             <p className=" text-sm    pr-4 text-gray ">
               M/S Ocean King is your reliable partner for all your maritime
@@ -136,76 +211,6 @@ const ContactPage = () => {
                 </span>
               </span>
             </div>
-          </div>
-          {/* form div */}
-          <div className="part2 bg-gray-50 basis-1/2 flex flex-col items-center  p-8 rounded-xl shadow-md">
-            <h1 className="  lg:text-4xl md:text-3xl text-2xl font-semibold my-10 text-center">
-              Let's Hear From You
-            </h1>
-            <form action="" method="POST" className="w-full max-w-lg ">
-              <div className="flex flex-wrap  -mx-3 mb-6">
-                <div className="w-full md:w-1/2  px-3 mb-6 md:mb-0">
-                  <input
-                    className="appearance-none block w-full text-gray-700 border-b-2 border-primary rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-transparent "
-                    id="grid-first-name"
-                    type="text"
-                    placeholder="Name"
-                    name="name"
-                    required
-                  />
-                </div>
-                <div className="w-full md:w-1/2 px-3">
-                  <input
-                    className="appearance-none block w-full text-gray-700 border-b-2 border-primary rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-transparent "
-                    id="grid-last-name"
-                    type="email"
-                    placeholder="E-Mail"
-                    name="email"
-                    required
-                  />
-                </div>
-              </div>
-              <div className="flex flex-wrap -mx-3 mb-6 md:mb-0">
-                <div className="w-full px-3 md:w-1/2 mb-6 md:mb-0">
-                  <input
-                    className="appearance-none block w-full text-gray-700 border-b-2 border-primary rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-transparent "
-                    id="grid-password"
-                    type="text"
-                    placeholder="Phone"
-                    name="phone"
-                    required
-                  />
-                </div>
-                <div className="w-full px-3 md:w-1/2 mb-6 md:mb-0">
-                  <input
-                    className="appearance-none block w-full text-gray-700 border-b-2 border-primary rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-transparent "
-                    id="grid-password"
-                    type="text"
-                    placeholder="Subject"
-                    name="subject"
-                    required
-                  />
-                </div>
-                <div className="w-full px-3">
-                  <textarea
-                    className="appearance-none block w-full text-gray-700 border-b-2 border-primary rounded py-3 px-4 mb-3 leading-tight focus:outline-none bg-transparent "
-                    rows={5}
-                    id="grid-password"
-                    type="text"
-                    placeholder="Message"
-                    name="message"
-                    required
-                  />
-                </div>
-              </div>
-              <button
-                type="submit"
-                className={`w-full mt-3 px-6 md:px-8 lg:px-8 py-2 md:py-3 lg:py-3 bg-slate-50    font-semibold text-primary rounded-full shadow-lg hover:shadow-xl transition duration-300 ease-in-out transform hover:-translate-y-1 flex items-center justify-center gap-3 text-xl group`}
-              >
-                Send{" "}
-                <FaPaperPlane className="group-hover:rotate-45 transition-transform ease-linear delay-300" />
-              </button>
-            </form>
           </div>
 
           {/* part two div information section basically */}
