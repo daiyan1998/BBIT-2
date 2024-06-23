@@ -41,7 +41,7 @@ const WhyUs = () => {
           </h2>
           {reasonsToChooseUs.map(({ title, description }) => (
             <div key={title} className="flex items-start gap-4">
-              <div class="my-4 flex max-w-[480px] items-center rounded-xl border border-solid border-blue-500 bg-blue-600 p-6 font-bold text-white [box-shadow:rgb(0,_0,_0)_-4px_4px]">
+              <div class="my-4 flex max-w-[480px] items-center rounded-xl border border-solid border-sky-500 bg-primary p-6 font-bold text-white [box-shadow:rgb(0,_0,_0)_-4px_4px]">
                 <div class="relative mr-2 flex h-14 w-14 flex-none flex-col items-center justify-center rounded-md border border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_2px_2px]">
                   <img
                     alt=""
