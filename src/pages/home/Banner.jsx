@@ -18,7 +18,7 @@ const Banner = () => {
             </div>
           </nav> */}
           <header
-            className={`container px-4 lg:flex mt-10 items-center h-full lg:mt-0 bg-[url('/waves.svg')] bg-no-repeat bg-contain bg-right`}
+            className={`container px-4 lg:flex mt-10 items-center h-full lg:mt-0 bg-[url('/waves.svg')] bg-no-repeat bg-cover bg-bottom`}
           >
             <div className="w-full">
               <h1 className="text-4xl lg:text-6xl font-bold">
@@ -43,7 +43,7 @@ const Banner = () => {
       <img
         src="https://images.unsplash.com/photo-1552207802-77bcb0d13122?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="Leafs"
-        className="w-full h-48 object-cover sm:h-full sm:w-4/12"
+        className="w-full h-48 object-cover sm:h-full sm:w-4/12 md:block hidden"
       />
     </div>
   );

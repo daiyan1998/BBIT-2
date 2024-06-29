@@ -14,13 +14,13 @@ const MemberCard = ({ name, description, department, experience_years }) => {
       <p className="mb-2 font-bold">{name}</p>
       <p className="mb-2 text-sm text-[#636262]">{department}</p>
       <div className="mt-4 flex flex-wrap">
-        <div className="p-3 bg-blue-100 rounded-full m-1 text-blue-600">
+        <div className="p-3 bg-primary-light rounded-full m-1 text-primary">
           <FaFacebook className="text-xl" />
         </div>
-        <div className="p-3 bg-blue-100 rounded-full m-1 text-blue-600">
+        <div className="p-3 bg-primary-light rounded-full m-1 text-primary">
           <FaLinkedin className="text-xl" />
         </div>
-        <div className="p-3 bg-blue-100 rounded-full m-1 text-blue-600">
+        <div className="p-3 bg-primary-light rounded-full m-1 text-primary">
           <FaTwitter className="text-xl" />
         </div>
       </div>
