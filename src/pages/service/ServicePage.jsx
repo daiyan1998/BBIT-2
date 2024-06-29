@@ -129,14 +129,14 @@ const ServiceCardX = ({ title, description }) => (
     </div>
   </div> */}
     <Link to={`/services/${title}`}>
-      <div class="relative flex  flex-col justify-center py-6 sm:py-12">
-        <div class="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
-          <div class="relative z-10 mx-auto max-w-md">
-            <span class="relative grid h-20 w-20 place-items-center rounded-full bg-primary transition-all duration-300 group-hover:bg-primary">
+      <div className="relative flex  flex-col justify-center py-6 sm:py-12">
+        <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">
+          <div className="relative z-10 mx-auto max-w-md">
+            <span className="relative grid h-20 w-20 place-items-center rounded-full bg-primary transition-all duration-300 group-hover:bg-primary">
               <GiAutoRepair className="text-2xl text-white" />
-              <span class="absolute top-0 -z-20  h-20 w-20 rounded-full bg-primary transition-all duration-300 group-hover:scale-[10]"></span>
+              <span className="absolute top-0 -z-20  h-20 w-20 rounded-full bg-primary transition-all duration-300 group-hover:scale-[10]"></span>
             </span>
-            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
               <h4 className="text-2xl font-bold mt-0 mb-2">{title}</h4>
               <p className="text-blueGray-500 leading-relaxed h-[80px]">
                 {description}
@@ -157,7 +157,7 @@ const ServicePage = () => {
   return (
     <>
       <h2 className="text-center my-10">Our Services</h2>
-      <div className="max-w-screen-xl mx-auto grid grid-cols-3">
+      <div className="max-w-screen-xl mx-auto grid lg:grid-cols-3 grid-cols-1 px-1">
         {servicesData.map((data) => (
           <ServiceCardX key={data} {...data} />
         ))}
