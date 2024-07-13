@@ -112,22 +112,7 @@ const servicesData = [
 
 const ServiceCardX = ({ title, description }) => (
   <>
-    {/* <div className="px-4 mb-12 relative w-full md:w-1/2">
-    <div className="shadow-lg rounded-lg relative flex flex-col min-w-0 break-words bg-blue-100 w-full mb-6 group transition-all duration-300 ease-in-out transform hover:-translate-y-1 hover:z-2">
-      <div className="-mt-6 shadow-lg rounded-full mx-auto w-16 h-16 inline-flex justify-center items-center transition-all duration-300 ease-in-out transform group-hover:scale-75 bg-lightBlue-500 bg-primary text-white text-3xl">
-        <GiAutoRepair />
-      </div>
-      <div className="pt-8 pb-16 px-10 flex-auto relative overflow-hidden">
-        <h4 className="text-2xl font-bold mt-0 mb-2">{title}</h4>
-        <p className="text-blueGray-500 leading-relaxed h-[80px]">
-          {description}
-        </p>
-        <div className="text-lightBlue-500 border-blueGray-200 opacity-0 rounded-b px-4 py-4 border-t absolute bottom-0 left-0 w-full text-center flex items-center justify-center transition-all duration-300 ease-in-out transform translate-y-1/2 group-hover:translate-y-0 group-hover:opacity-100">
-          <Link to={`/services/${title}`}>More details...</Link>
-        </div>
-      </div>
-    </div>
-  </div> */}
+    
     <Link to={`/services/${title}`}>
       <div className="relative flex  flex-col justify-center py-6 sm:py-12">
         <div className="group relative cursor-pointer overflow-hidden bg-white px-6 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl sm:mx-auto sm:max-w-sm sm:rounded-lg sm:px-10">

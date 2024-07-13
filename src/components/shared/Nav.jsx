@@ -54,7 +54,7 @@ const Nav = () => {
         ref={hamMenu}
         className="fixed top-0 left-0 z-10 w-full translate-x-[100%] transition ease-linear 200ms"
       >
-        <ul className=" bg-primary text-white text-center min-h-screen relative flex items-center flex-col justify-center gap-5">
+        <ul className=" bg-primary z-10 text-white text-center min-h-screen relative flex items-center flex-col justify-center gap-5">
           {navItems2.map((item, index) => (
             <li key={index} onClick={showNavbar} className="px-4 py-2">
               <NavLink className="hover:text-primary text-2xl" to={item.link}>

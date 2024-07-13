@@ -3,10 +3,10 @@ const ServicePageTopBanner = () => {
     <div className="">
       <div className="flex flex-col lg:flex-row items-center justify-around">
         <div className="flex flex-col gap-5 lg:w-1/2 p-4">
-          <h2 className="leading-normal">
+          <h2 className="leading-normal lg:text-4xl text-xl">
             M/S Ocean King: Your Trusted Partner for Expert Ship Repair
           </h2>
-          <p className="">
+          <p className="lg:text-2xl text-sm">
             Your vessel is your investment. It's how you conduct business,
             transport cargo, and navigate the vast seas. When your ship requires
             repairs, you need a reliable and experienced partner to get you back
