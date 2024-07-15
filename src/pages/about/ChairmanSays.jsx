@@ -5,7 +5,7 @@ const ChairmanSays = () => {
     <div className="bg-slate-50">
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between gap-16 mb-2 py-20 px-4">
         <div className="basis-1/2">
-          <h2 className="mb-6 font-semibold leading-normal">
+          <h2 className="mb-6 font-semibold leading-normal lg:text-4xl text-2xl lg:text-left text-center">
             Welcome to <br /> M/S Ocean
           </h2>
           <p className="text-lg mb-9">

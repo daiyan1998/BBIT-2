@@ -10,9 +10,9 @@ const ServiceCard = ({ title, desc, img }) => {
           <div class="relative z-10 mx-auto max-w-md">
             <span class="relative grid h-20 w-20 place-items-center rounded-full bg-primary transition-all duration-300 group-hover:bg-primary">
               <FaShip className="text-2xl text-white" />
-              <span class="absolute top-0 -z-20  h-20 w-20 rounded-full bg-primary transition-all duration-300 group-hover:scale-[10]"></span>
+              <span className="absolute top-0 -z-20  h-20 w-20 rounded-full bg-primary transition-all duration-300 group-hover:scale-[10]"></span>
             </span>
-            <div class="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
+            <div className="space-y-6 pt-5 text-base leading-7 text-gray-600 transition-all duration-300 group-hover:text-white/90">
               <h4 className="text-2xl font-semibold">{title}</h4>
               <p>{desc}</p>
             </div>

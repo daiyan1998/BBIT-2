@@ -35,23 +35,23 @@ const WhyUs = () => {
     <div className="mb-20 py-20">
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row gap-20 md:gap-0 justify-center">
         <div className="basis-1/2 flex flex-col gap-6 px-6">
-          <h2 className="heading-style flex flex-col gap-2">
-            <span>Why You Should</span>
-            <span>Choose US</span>
+          <h2 className="heading-style flex flex-col justify-center gap-2">
+            <span className="lg:text-center text-center">Why You Should</span>
+            <span className="lg:text-center text-center" >Choose US</span>
           </h2>
           {reasonsToChooseUs.map(({ title, description }) => (
             <div key={title} className="flex items-start gap-4">
-              <div class="my-4 flex max-w-[480px] items-center rounded-xl border border-solid border-sky-500 bg-primary p-6 font-bold text-white [box-shadow:rgb(0,_0,_0)_-4px_4px]">
-                <div class="relative mr-2 flex h-14 w-14 flex-none flex-col items-center justify-center rounded-md border border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_2px_2px]">
+              <div className="my-4 flex max-w-[480px] items-center rounded-xl border border-solid border-sky-500 bg-primary p-6 font-bold text-white [box-shadow:rgb(0,_0,_0)_-4px_4px]">
+                <div className="relative mr-2 flex h-14 w-14 flex-none flex-col items-center justify-center rounded-md border border-[#9b9b9b] bg-white [box-shadow:rgb(0,_0,_0)_2px_2px]">
                   <img
                     alt=""
                     src="\src\assets\hand.png"
-                    class="inline-block h-8"
+                    className="inline-block h-8"
                   />
                 </div>
                 <div>
                   <h4 className="ml-4">{title}</h4>
-                  <p class="ml-4 text-sm font-normal">{description}</p>
+                  <p className="ml-4 text-sm font-normal">{description}</p>
                 </div>
               </div>
             </div>

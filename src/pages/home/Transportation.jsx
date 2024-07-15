@@ -29,12 +29,17 @@ const Transportation = () => {
         </Link>
       </div>
       {/* 2 */}
-      <div className="relative basis-1/2">
-        <img src={transporationimg} alt="" />
+      <div className="relative basis-1/3">
+      <img
+        src="https://images.unsplash.com/photo-1552207802-77bcb0d13122?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Leafs"
+        className="rounded-xl"
+      />
         {/* <div className="absolute bottom-[12%] left-[30%] bg-white h-[150px] w-[190px] shadow-lg flex flex-col justify-center items-center rounded-md">
           <div className="text-5xl text-primary">20+</div>
           <div>Years of Experience</div>
         </div> */}
+        
       </div>
     </div>
   );
