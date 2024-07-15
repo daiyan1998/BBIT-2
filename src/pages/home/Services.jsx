@@ -29,7 +29,7 @@ const Services = () => {
         <span className="text-primary ml-3">Our Services</span>
       </h2>
       <Hr />
-      <div className="flex flex-wrap gap-6 justify-center pt-10">
+      <div className="flex flex-wrap gap-6 justify-center pt-10 px-4">
         {servicesDes.map((service) => (
           <ServiceCard {...service} />
         ))}

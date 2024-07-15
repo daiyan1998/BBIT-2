@@ -41,7 +41,7 @@ const TransportationCard = ({ title, description, icon }) => {
 export const TransportationService = () => {
   return (
     <div>
-      <div className="max-w-screen-xl mx-auto grid md:grid-cols-3 grid-cols-1 justify-items-center p-4">
+      <div className="max-w-screen-xl mx-auto grid md:grid-cols-3 grid-cols-1 gap-4 justify-items-center p-4">
         {transportationServices.map((item, i) => (
           <TransportationCard key={i} {...item} />
         ))}
