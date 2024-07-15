@@ -5,7 +5,7 @@ const Banner = () => {
     <div className="flex flex-wrap py-8">
       <div className="w-full">
         <div className="h-full  w-full">
-        <div className="lg:h-[700px] h-[500px] w-full flex justify-center items-center bg-[url('https://images.pexels.com/photos/843085/pexels-photo-843085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-no-repeat">
+        <div className="lg:h-[900px] h-[500px] w-full flex justify-center items-center bg-[url('https://images.pexels.com/photos/843085/pexels-photo-843085.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-no-repeat">
         <div className="w-full">
               <h1 className="text-3xl lg:text-6xl font-bold text-white  lg:w-[550px] ">
                 Tomorrow Expert Ship{" "}
